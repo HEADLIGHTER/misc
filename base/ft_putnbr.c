@@ -18,7 +18,7 @@ void	ft_puchar (char c)
 
 void ft_putnbr(int nb)
 {
-	in (nb == -2147483648)
+	if (nb == -2147483648)
 	{
 		ft_putchar('-');
 		ft_putchar('2');
